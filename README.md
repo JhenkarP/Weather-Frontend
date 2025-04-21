@@ -1,12 +1,31 @@
-# React + Vite
+# 🌤️ React Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple weather dashboard built with React that allows users to search for current weather information by city name. It features dynamic weather icons based on real-time data and time of day.
 
-Currently, two official plugins are available:
+## 🔧 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Search for real-time weather data by city
+- Displays:
+  - Temperature
+  - Humidity
+  - Wind Speed
+  - Location
+  - Dynamic weather icons (day/night detection)
+- Clear button to reset search
+- Keyboard support (Enter key to search)
 
-## Expanding the ESLint configuration
+## 📦 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React (Functional Components, Hooks)
+- **Backend API:** Spring Boot (`/api/weather/current?city=...`)
+- **Styling:** Custom CSS (`Weather.css`)
+- **Icons & Images:** Local assets (e.g., sunny, rain, cloud, moon, etc.)
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/react-weather-app.git
+cd react-weather-app
+```
